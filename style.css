@@ -22,7 +22,7 @@ body{
     letter-spacing: 2px;
 }
 
-.searchbar{
+#searchbar{
     width: 85%;
     height: 5vh;
     border-radius: 10px;
