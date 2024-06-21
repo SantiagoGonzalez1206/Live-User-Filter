@@ -3,13 +3,17 @@ export const structure = async (info) => {
 
     for (let i = 0; i < info.length; i++) {
             plantilla += /*html*/`
-            <div class="people">
-                <img src="${info[i].avatar}" alt="img">
-            <div class="text">
-                <h3>${info[i].name_full}</h3>
-                <p>${info[i].description}</p>
+            <div class="info_person">
+                <div>
+                    <img src="${info[i].avatar}" alt="img">
+                </div> 
+                <div class="text">
+                    <h3>${info[i].name_full}</h3>
+                    <div class="description">
+                        <p>${info[i].description}</p>
+                    </div>
+                </div>
             </div>
-            </div> 
             <hr> 
                 `;
     }
