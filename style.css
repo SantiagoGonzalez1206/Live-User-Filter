@@ -1,0 +1,55 @@
+@font-face {
+    font-family: Medium;
+    src: url(./storage/Roboto/Roboto-Medium.ttf);
+}
+
+body{
+    font-family: Medium;
+    letter-spacing: .5px;
+}
+
+.section_up{
+    background: rgb(71, 71, 173);
+    border-radius: 5px;
+    padding-left: 5%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    color: white;
+}
+
+.section_up_title{
+    margin-top: 30px;
+    letter-spacing: 2px;
+}
+
+.searchbar{
+    width: 85%;
+    height: 5vh;
+    border-radius: 10px;
+    border: 0px solid;
+    margin-bottom: 15px;
+    margin-top: 30px;
+    opacity: 60%;
+    color: grey;
+    background-color: black;
+    padding: .3%;
+}
+
+
+.info_person{
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-left: 5%;
+}
+
+.info_person img{
+    border-radius: 50%;
+    margin-right: 30px;
+    width: 70%;
+}
+
+.description{
+    color: rgba(0, 0, 0, 0.692)
+}
